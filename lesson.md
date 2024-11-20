@@ -32,7 +32,7 @@ ls # list all files in current directory
 
 Now, let Windows Learners install their Bash Shell or use Windows Powershell for Windows and MacOS Learners to play around with the cheat sheet.
 
-*Note: there is no ```**touch**``` command in Windows Powershell. Windows users can try using the **```ni``` (new item)** command to make files.*
+_Note: there is no `**touch**` command in Windows Powershell. Windows users can try using the **`ni` (new item)** command to make files._
 
 ---
 
@@ -46,6 +46,7 @@ Node Version Manager (NVM), as the name implies, is a tool for managing Node ver
 - Install node and npm using the `nvm` command.
 
 Example:
+
 ```sh
 nvm ls-remote # list all versions
 nvm install v18.12.0 # install latest LTS
@@ -62,20 +63,20 @@ VSCode is one of the most popular code editors in the world. It offers a robust 
 
 - Download and install VSCode [here](https://code.visualstudio.com/download)
 - Install the following extensions on VSCode
-    - Live Share (pair programming - good for seeking help from instructors)
-        - The instructor can create a read-only link and share with students.
-        - Be sure to show students there are read-only and write permissible links.
-    - Live Server (to host html)
-        - Note: This is going to be used in Module 1 only.
-        - In the explorer navigation on the left
-            1. expand `src` folder
-            1. right-click `index.html`
-            1. choose "Open with live server"
-            1. you should see a page on browser 
-    - Prettier code formatter
-        - We will use [index.js](./src/index.js) as an example after cloning the repo.
-        - Right-click the code and choose "Format Document with"
-        - Select Prettier
+  - Live Share (pair programming - good for seeking help from instructors)
+    - The instructor can create a read-only link and share with students.
+    - Be sure to show students there are read-only and write permissible links.
+  - Live Server (to host html)
+    - Note: This is going to be used in Module 1 only.
+    - In the explorer navigation on the left
+      1. expand `src` folder
+      1. right-click `index.html`
+      1. choose "Open with live server"
+      1. you should see a page on browser
+  - Prettier code formatter
+    - We will use [index.js](./src/index.js) as an example after cloning the repo.
+    - Right-click the code and choose "Format Document with"
+    - Select Prettier
 
 ---
 
@@ -86,12 +87,12 @@ All software engineers use version control to manage and review project versions
 ### Installation
 
 Go to the Git downloads [page](https://git-scm.com/downloads) and follow the instructions based on the OS that you have.
- 
+
 Upon successful installation, hitting `git --version` on Terminal should display the version number.
 
 > Learners will go through the full lesson on Git in the next lesson.
 
-It is good for learners to decide on a directory in their macines where they would clone all repositories into. 
+It is good for learners to decide on a directory in their macines where they would clone all repositories into.
 
 Suggestion:
 
@@ -101,31 +102,33 @@ Windows: `C:\Users\<your username>\sctp`
 ### Forking and Cloning
 
 - Forking the repo (copying a repo)
-    - Go to Github, and fork this [directory](https://github.com/su-ntu-ctp/6m-software-1.1-sd-intro) by clicking on the "Fork" button
+  - Go to Github, and fork this [directory](https://github.com/su-ntu-ctp/6m-software-1.1-sd-intro) by clicking on the "Fork" button
     <img src="./assets/Forking_Repo.png" />
-    - Make sure you select your Github account as the owner of the forked repo, then click on "Create Fork"
+  - Make sure you select your Github account as the owner of the forked repo, then click on "Create Fork"
     <img src="./assets/Forking_Repo2.png" />
-    - You should be able to see that the forked repository is under your Github account
+  - You should be able to see that the forked repository is under your Github account
 - Git clone
-    - To clone the current lesson repository, run the following command on Terminal:
-    ```sh
-    git clone https://github.com/<your-github-account>/6m-software-1.1-sd-intro
-    ```
-    - To launch the cloned folder on VS Code, run the following commands on Terminal (exclude # and the words behind. Those are comments): 
-    ```sh
-    cd 6m-software-1.1-sd-intro
-    code .
-    ```
-    - With explanation in comments:
-    ```sh
-    cd 6m-software-1.1-sd-intro # change directory to the specified folder
-    code . # launch current directory on code
-    ```
+  - To clone the current lesson repository, run the following command on Terminal:
+  ````sh
+  git clone https://github.com/<your-github-account>/6m-software-1.1-sd-intro
+  `
+  - To launch the cloned folder on VS Code, run the following commands on Terminal (exclude # and the words behind. Those are comments):
+  ```sh
+  cd 6m-software-1.1-sd-intro
+  code .
+  ````
+  - With explanation in comments:
+  ```sh
+  cd 6m-software-1.1-sd-intro # change directory to the specified folder
+  code . # launch current directory on code
+  ```
+
 ---
 
 ## Part 5 - Chrome Developer Tools
 
 The Chrome developer tools can be accessed by doing either of the following:
+
 1. Right-click on the screen and choose "Inspect"
 2. Pressing F12 in the keyboard
 3. Pressing Ctrl+Shift+I in the keyboard

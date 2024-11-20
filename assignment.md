@@ -3,14 +3,13 @@
 In this assignment, you will learn to use the developer's tool to inspect the elements of [this](https://nznznh.csb.app/) webpage.
 
 1. What is the right margin of the first element? 
-Margin-right: 50 px
+Margin-right: 50px
 
 2. What is the top padding of the second element?
-Padding-top: 100 px
+Padding-top: 100px
 
 3. What is the class name of the third element and the content of the css?
 Div class = "elementThree"
-Content of CSS
 .elementThree 
 {
     padding: 10px;
@@ -30,7 +29,7 @@ Content of CSS
     border: mediumblue 8px solid;
     width: 95%;
     height: 100%;
-    margin: 1%;
+    margin: 1px;
 }
 
 ### Submission 
